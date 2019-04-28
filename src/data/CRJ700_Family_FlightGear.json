@@ -1,0 +1,56 @@
+{
+    "plane_name": "CRJ700-family FlightGear",
+    "plane_info": [
+        {"game_platform": "FlightGear"},
+        {"game_version": "2018.3.1"},
+        {"orig_license": "GNU"}
+    ],
+    "checklists" : [
+        {
+            "checklist_name" : "Engine Start",
+            "checklist_message": "Engine Start-up Checklist",
+            "checklist_steps" : [
+                {"step_number" : "1", "step_title" : "Beacon", "step_text" : "ON"},
+                {"step_number" : "2", "step_title" : "APU ECU", "step_text" : "PWR ON"},
+                {"step_number" : "3", "step_title" : "APU", "step_text" : "START"},
+                {"step_number" : "4", "step_title" : "APU/Generator", "step_text" : "ON"},
+                {"step_number" : "5", "step_title" : "APU", "step_text" : "CHECK AVAIL"},
+                {"step_number" : "6", "step_title" : "Bleed Valves", "step_text" : "AUTO"},
+                {"step_number" : "7", "step_title" : "Parking Brake", "step_text" : "SET"},
+                {"step_number" : "8", "step_title" : "Throttle", "step_text" : "IDLE"},
+                {"step_number" : "9", "step_title" : "Engine Area", "step_text" : "CLEAR"},
+                {"step_number" : "10", "step_title" : "Engine 1 Starter Switch Light", "step_text" : "ON"},
+                {"step_number" : "11", "step_title" : "N1 increases as N2 increases", "step_text" : "CHECK"},
+                {"step_number" : "12", "step_title" : "ITT", "step_text" : "CHECK"},
+                {"step_number" : "13", "step_title" : "Oil Pressure", "step_text" : "CHECK"},
+                {"step_number" : "14", "step_title" : "Engine 1 Starter Switch Light", "step_text" : "CHECK OFF"},
+                {"step_number" : "15", "step_title" : "Engine 2 Starter Switch Light", "step_text" : "ON"},
+                {"step_number" : "16", "step_title" : "N1 increases as N2 increases", "step_text" : "CHECK"},
+                {"step_number" : "17", "step_title" : "ITT", "step_text" : "CHECK"},
+                {"step_number" : "18", "step_title" : "Oil Pressure", "step_text" : "CHECK"},
+                {"step_number" : "19", "step_title" : "Engine 2 Starter Switch Light", "step_text" : "CHECK OFF"},
+                {"step_number" : "20", "step_title" : "Generator 1 and 2", "step_text" : "CHECK"},
+                {"step_number" : "21", "step_title" : "APU", "step_text" : "OFF"}
+        ]},
+        {
+            "checklist_name" : "Before Taxi",
+            "checklist_message": "Before Taxi Checklist",
+            "checklist_steps" : [
+                {"step_number" : "1", "step_title" : "Hydraulic Pump Switch", "step_text" : "CHECK ON"},
+                {"step_number" : "2", "step_title" : "NWS (tiller)", "step_text" : "ARMED"},
+                {"step_number" : "3", "step_title" : "Spoilers", "step_text" : "RETRACTED"},
+                {"step_number" : "4", "step_title" : "Flight Controls", "step_text" : "FREE AND CORRECT"},
+                {"step_number" : "5", "step_title" : "Anti-Ice Switches", "step_text" : "ON below freezing"},
+                {"step_number" : "6", "step_title" : "Flaps", "step_text" : "8 (20 if heavy)"},
+                {"step_number" : "7", "step_title" : "Trim (check EICAS)", "step_text" : "0 degree (50000 lbs), 0.5 degree nose up (70000 lbs)"},
+                {"step_number" : "8", "step_title" : "Flight Director", "step_text" : "ON"},
+                {"step_number" : "9", "step_title" : "Heading Bug", "step_text" : "SET for depature"},
+                {"step_number" : "10", "step_title" : "Altitude Bug", "step_text" : "SET for depature"},
+                {"step_number" : "11", "step_title" : "Nav Radios", "step_text" : "SET for depature"},
+                {"step_number" : "12", "step_title" : "Taxi Clearance", "step_text" : "OBTAIN"},
+                {"step_number" : "13", "step_title" : "Transponder", "step_text" : "SET AND STANDBY"},
+                {"step_number" : "14", "step_title" : "Taxi Lights", "step_text" : "ON"},
+                {"step_number" : "15", "step_title" : "Parking Breake", "step_text" : "RELEASE"}
+            ]}
+    ]
+}

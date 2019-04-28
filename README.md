@@ -1,12 +1,14 @@
 # FlySimChk
-Version 0.1.003
+Version 0.1.004
 
 This is a proof of concept for a command line tool for reading (and eventually writing) checklists for use in flight simulation games.
 It is provided without any warranty and it is still in development.
 
+You can run a pre-built executable from the folded labeled "releases". Check for your operating system. 
 
 Acknowledgments: This project makes extensive use of the PyInquirer project as the basis of the command line interactivity.
 You can find more information about that project here: https://pypi.org/project/PyInquirer/ and https://github.com/CITGuru/PyInquirer
+
 
 Current Features:
 1) Able to read from pre-made JSON test files.
@@ -19,8 +21,8 @@ Future Features:
 2) Improved example planes and checklists.
 3) Better installation system.
 
-System Requirements:
-1) Currently only known to work on Windows 10.
+System Requirements For Running from Source:
+1) Currently only tested on Windows 10.
 2) You must have the latest PyInquier package installed
 
 
