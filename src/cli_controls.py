@@ -271,7 +271,8 @@ class ChecklistJSONObject(CliJSONObject):
                         result.append({'name': step.step_text,
                                        'checked': True})
                     else:
-                        result.append({'name': step.step_text})
+                        name_to_append = str(step.step_number) + ': ' + str(step.step_text)
+                        result.append({'name': name_to_append})
                 else:
                     result.append({'name': step.step_text})
         else:

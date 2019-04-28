@@ -1,5 +1,5 @@
 # FlySimChk
-Version 0.1.004
+Version 0.1.005
 
 This is a proof of concept for a command line tool for reading (and eventually writing) checklists for use in flight simulation games.
 It is provided without any warranty and it is still in development.
